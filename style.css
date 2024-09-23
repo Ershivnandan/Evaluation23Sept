@@ -1,0 +1,214 @@
+body{
+    font-family: "DM Sans", sans-serif;
+    margin: 0;
+}
+
+nav{
+    padding: 5px 0;
+    position: relative;
+}
+.nav1Main{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5rem;
+
+}
+.nav1Main1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.nav1Main1Inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.imgSpan img{
+    width: 25px;
+    height: 25px;
+}
+
+.nav1Main2{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+}
+.flag{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.nav1Main2Language{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.languageSpan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.languageSpan img{
+    width: 20px;
+    height: 20px;
+}
+
+
+/* 2ndNav bar */
+
+.nav2{
+    background: #1a1a1a;
+    width: 100%;
+    max-width: 2560px;
+   
+}
+.nav2Main{
+    display: flex;
+    justify-content: space-between;
+    background: #1a1a1a;
+    margin: 0 5rem;
+    align-items: center;
+}
+
+.logo{
+    width: 200px;
+}
+.navigators{
+    margin: 0 2rem;
+}
+.navigators ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    align-items: center;
+}
+.navigators ul li{
+    list-style: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.navigators ul li:nth-child(1){
+    color: #E9AD28;
+}
+
+.bookButon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 13px 20px 11px;
+    font-size: 18px;
+    font-weight: 200;
+}
+.bookButon img{
+    margin-top: 2px;
+}
+
+
+/* Main Hero Section  */
+
+.heroSection{
+    background-image: url("https://preview.colorlib.com/theme/hiroto/img/hero.jpg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.miniHeading{
+    text-align: center;
+    color: #E9AD28;
+}
+
+.container{
+    width: 60%;
+    align-self: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 4rem;
+}
+
+.mainHeading2 h1{
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+/* for div styling  */
+
+.inputForm{
+    width: 60%;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    padding: 30px 10px;
+    gap: 20px;
+}
+.formDiv{
+    align-self: center;
+}
+
+
+.formImgSpan img{
+    width: 30px;
+    height: 30px;
+}
+
+.locationDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.locationDiv input{
+    border: none;
+    padding: 5px;
+}
+.locationDiv input:active{
+    border: none;
+    padding: 5px;
+}
+
+.inputForm div span{
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+.inputForm div{
+    text-align: center;
+}
+
+.formImgSpan2{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 10px; */
+    color: #000 !important;
+    align-items: center;
+}
+.formImgSpan2 img{
+    width: 30px;
+    height: 30px;
+}
+
+.inputForm div:nth-child(5){
+    width: 100%;
+    height: 100%;
+    background: #000;
+    color: #fff;
+}

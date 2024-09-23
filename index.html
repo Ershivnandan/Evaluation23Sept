@@ -189,5 +189,107 @@
         </div>
       </form>
     </section>
+
+    <!-- 2nd Section  -->
+
+    <section class="section2">
+      <div class="section2div">
+        <div class="section2MaindivItem1">
+          <div class="anoutusHeadingsection2">
+            <span>ABOUT US</span>
+          </div>
+          <div class="heading2Section2">
+            <h1>Welcome Hiroto Hotel In Street L’Abreuvoir</h1>
+          </div>
+          <div class="textAreaScetion2">
+            <p>
+              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+              aut fugit, sed quia consequuntur magni dolores eos qui ratione
+              voluptatem sequi nesciunt. <br />
+              <br />
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque.
+            </p>
+          </div>
+          <div class="signatureSection2">
+            <img
+              src="https://preview.colorlib.com/theme/hiroto/img/home-about/sign.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="section2MaindivItem2">
+          <img
+            src="https://preview.colorlib.com/theme/hiroto/img/home-about/home-about.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- section 3  -->
+
+    <section class="section3">
+      <div class="section3MainDiv" id="section3Grid">
+      </div>
+    </section>
   </body>
+
+  <script>
+    const section3Grid = document.getElementById("section3Grid");
+
+    const data = [
+      {
+        logo: "https://preview.colorlib.com/theme/hiroto/img/services/services-1.png",
+        heading: "Free Wi-Fi",
+        Text: "The massive investment in a hotel or resort requires constant reviews and control in order to make it a successful investment.",
+      },
+      {
+        logo: "https://preview.colorlib.com/theme/hiroto/img/services/services-2.png",
+        heading: "Premium Pool",
+        Text: "Choose from 4 unique ready made concepts, let us help you create the concept perfect for you or let HCA.",
+      },
+      {
+        logo: "https://preview.colorlib.com/theme/hiroto/img/services/services-3.png",
+        heading: "Coffee Maker",
+        Text: "HCA's Owner's Representation is taking care of just these important factors, may it be through regular site visits and spot checks.",
+      },
+      {
+        logo: "https://preview.colorlib.com/theme/hiroto/img/services/services-4.png",
+        heading: "Bar Wine",
+        Text: "For properties with third party management companies, HCA Consultants will as well administer the terms and conditions.",
+      },
+      {
+        logo: "https://preview.colorlib.com/theme/hiroto/img/services/services-5.png",
+        heading: "TV HD",
+        Text: "We provide a critical analysis of a hotel's marketing strategy, bench-marking it against industry and competitive practices. ",
+      },
+      {
+        logo: "https://preview.colorlib.com/theme/hiroto/img/services/services-6.png",
+        heading: "Restaurant",
+        Text: "A hotel and restaurant investment deserves careful and market oriented financial planning and projections.",
+      },
+    ];
+
+    data.forEach((item) => {
+      const card = document.createElement("div");
+      card.className = "card";
+
+      card.innerHTML = `
+            <div class="cardLogo">
+              <img src="${item.logo}" alt="">
+            </div>
+            <div class="cardHeading">
+              <h4>${item.heading}</h4>
+            </div>
+            <div class="cardText">
+              <p>
+                ${item.Text}
+              </p>
+            </div>
+      `;
+
+      section3Grid.appendChild(card);
+    });
+  </script>
 </html>

@@ -192,6 +192,7 @@ nav{
 }
 .inputForm div{
     text-align: center;
+    align-self: center ;
 }
 
 .formImgSpan2{
@@ -206,9 +207,85 @@ nav{
     height: 30px;
 }
 
-.inputForm div:nth-child(5){
-    width: 100%;
-    height: 100%;
+.inputForm div:nth-child(5) button{
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
     background: #000;
     color: #fff;
+    padding: 20px 10px;
+}
+
+
+/* Section 2 styling  */
+
+.section2{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+.section2div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    align-self: center;
+    gap: 50px;
+}
+
+.section2MaindivItem1{
+    padding-top: 200px;
+    gap: 3rem;
+}
+
+.anoutusHeadingsection2{
+    color: #E9AD28;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.heading2Section2{
+    margin: 1rem 0 0 0 ;
+    font-size: 28px;
+    color: #000;
+}
+
+.textAreaScetion2{
+    font-size: 16px;
+    color: gray;
+
+}
+.signatureSection2{
+    width: 200px;
+    height: auto;
+}
+
+.section2MaindivItem2{
+    margin-top: -4rem;
+}
+
+
+/* Section 3 style  */
+
+.section3{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+.section3MainDiv{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    align-self: center;
+    gap: 50px;
+    padding-top: 7rem;
+}
+
+.cardHeading{
+    font-size: 24px;
+    color: #000;
+}
+.cardText{
+    color: gray;
+    font-weight: 500;
 }
